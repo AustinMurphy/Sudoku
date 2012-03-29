@@ -1,0 +1,31 @@
+README
+
+sudoku-solver.pl
+
+October 2010
+
+A simple sudoku puzzle solver that can solve many, but NOT ALL sudoku puzzles.
+
+
+Doing a sudoku puzzle used to bug me because I thought it was as simple 
+matter of marking off non-possiblities and the answer revealing itself.  
+I wrote this solver to prove this.  
+
+I found that my approach was insufficient when it couldn't solve a 
+published sudoku that I was using for testing.  In researching why, I came 
+across Sudopedia:
+
+  http://www.sudopedia.org/index.php/Main_Page
+
+which opened my eyes.  
+
+
+In 2012, I came across this wonderful writeup by Peter Norvig:
+
+  http://norvig.com/sudoku.html
+
+
+Considering the abundance of other complete solvers and the non-standard
+format of my sudoku data, there isn't much point in further development.
+
+
